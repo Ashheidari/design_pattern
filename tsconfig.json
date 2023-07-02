@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "system",
+      "moduleResolution":"node",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outFile": "../../built/local/tsc.js",
+      "sourceMap": true,
+      "strict":true,
+    },
+    "include": ["src/**/*.ts",
+                "@types/express/index.d.ts"
+],
+    "exclude": [
+        "./src/public",
+        "**/*.spec.ts"]
+  }
